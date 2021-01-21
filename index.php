@@ -7,7 +7,7 @@
 
 $server='sql108.epizy.com';
 $username='epiz_27703731';
-$password='s9z1j9pwy3';
+
 $db_base_name='epiz_27703731_Mytable';
     $con=mysqli_connect("$server", "$username", "$password");
 	$_SESSION['connection']=$con;
